@@ -1,6 +1,6 @@
 # Exchange Rates
 
-The program was created as part of the test task for Lokalise. A simple request to an exchange API by getting information on exchange rates for 2010-01-15(+input date) and putting the results to any Google Spreadsheet
+The program was created as part of the test task for Lokalise. A simple request to an exchange API by getting information on exchange rates for 2010-01-15(+input date) and putting the results to any Google Spreadsheet.
 
 ## Installation
 
@@ -42,9 +42,9 @@ For more information go to https://exchangeratesapi.io/documentation/
 ## Google Spreadsheet Link
 https://docs.google.com/spreadsheets/d/1kOaQAhonJzYo7weurSmiaYiR8B_J1iqwnckPAuJMCJU/
 
-Fixed script(2010-01-15) uses first list and input script uses second list in this spreadsheet
+Fixed script(2010-01-15) uses first list and input script uses second list in this spreadsheet.
 
-In order to change spreadsheet you need to generate a new pair of keys in Google cloud platform
+In order to change spreadsheet you need to generate a new pair of keys in Google cloud platform.
 
 ## Input any date
-In the Input folder there is a version of the same scripts that allows you to select a date with input
+In the Input folder there is a version of the same scripts that allows you to select a date with input.
