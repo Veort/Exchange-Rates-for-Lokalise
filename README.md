@@ -42,9 +42,6 @@ For more information go to https://exchangeratesapi.io/documentation/
 ## Google Spreadsheet Link
 https://docs.google.com/spreadsheets/d/1kOaQAhonJzYo7weurSmiaYiR8B_J1iqwnckPAuJMCJU/
 
-Fixed script(2010-01-15) uses first list and input script uses second list in this spreadsheet.
+Fixed script(2010-01-15) uses first list in this spreadsheet.
 
 In order to change spreadsheet you need to generate a new pair of keys in Google cloud platform.
-
-## Input any date
-In the Input folder there is a version of the same scripts that allows you to select a date with input.
