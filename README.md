@@ -47,4 +47,4 @@ Fixed script(2010-01-15) uses first list and input script uses second list in th
 In order to change spreadsheet you need to generate a new pair of keys in Google cloud platform
 
 ## Input any date
-In the Input folder there is a version of the same scripts that allow you to select a date with input
+In the Input folder there is a version of the same scripts that allows you to select a date with input
