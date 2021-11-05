@@ -1,4 +1,4 @@
-from functions_rates import html_fixed
+from html_table_fixed import html_fixed
 
 
 html_fixed()
