@@ -44,4 +44,4 @@ https://docs.google.com/spreadsheets/d/1kOaQAhonJzYo7weurSmiaYiR8B_J1iqwnckPAuJM
 
 Fixed script(2010-01-15) uses first list in this spreadsheet.
 
-In order to change spreadsheet you need to generate a new pair of keys in Google cloud platform.
+In order to change spreadsheet you need to ask me for a json.keys or generate a new pair of keys in Google cloud platform.
