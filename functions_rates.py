@@ -7,9 +7,7 @@ import pandas as pd
 import webbrowser
 
 
-
 def spreadsheet_w_f():
-
 
     SERVICE_ACCOUNT_FILE = os.path.join(sys.path[0], "keys.json")
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
@@ -24,21 +22,20 @@ def spreadsheet_w_f():
 
     sheet = service.spreadsheets()
 
-    results = service.spreadsheets().values().batchUpdate(spreadsheetId = SAMPLE_SPREADSHEET_ID, body = {
+    results = service.spreadsheets().values().batchUpdate(spreadsheetId=SAMPLE_SPREADSHEET_ID, body={
         "valueInputOption": "USER_ENTERED",
         "data": [
             {"range": "exchange rates for 2010-01-15!B1",
              "majorDimension": "COLUMNS",
-             "values":[exc_rat] },
+             "values": [exc_rat]},
             {"range": "exchange rates for 2010-01-15!A1",
              "majorDimension": "COLUMNS",
-             "values":[cur] }
+             "values": [cur]}
         ]
     }).execute()
 
 
 def spreadsheet_r_f():
-
 
     SERVICE_ACCOUNT_FILE = os.path.join(sys.path[0], "keys.json")
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
@@ -61,7 +58,6 @@ def spreadsheet_r_f():
 
 def spreadsheet_d_f():
 
-
     SERVICE_ACCOUNT_FILE = os.path.join(sys.path[0], "keys.json")
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
@@ -81,9 +77,7 @@ def spreadsheet_d_f():
 
 def html_fixed():
 
-
     df = pd.DataFrame(exc_rat, cur)
-
 
     html = df.to_html(header=False)
 
