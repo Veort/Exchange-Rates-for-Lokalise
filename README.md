@@ -32,9 +32,19 @@ To delete data from the Google spreadsheet, you need to execute the script start
 ```bash
 python *path to file*\start_delete_from_sheet.py
 ```
+## Exchange Rates API
+By changing url in exchange_rates_fixed.py you can get a number of endpoints where each of them provides different functionality.
+```bash
+url = 'http://api.exchangeratesapi.io/v1/2010-01-15?access_key=2146e6519dc5c7836c76a433d6049c84'
+```
+For more information go to https://exchangeratesapi.io/documentation/
 
-## Google Spreadsheet Link 
+## Google Spreadsheet Link
 https://docs.google.com/spreadsheets/d/1kOaQAhonJzYo7weurSmiaYiR8B_J1iqwnckPAuJMCJU/
 
-## 
-Also in the Input folder there is a version of the same scripts that allow you to select a date
+Fixed script(2010-01-15) uses first list and input script uses second list in this spreadsheet
+
+In order to change spreadsheet you need to generate a new pair of keys in Google cloud platform
+
+## Input any date
+In the Input folder there is a version of the same scripts that allow you to select a date with input
