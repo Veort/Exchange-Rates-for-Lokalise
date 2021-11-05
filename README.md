@@ -18,19 +18,19 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 In order to write data to an html table, you need to run the program in the command line start_html_table.py:
 
 ```bash
-python *path to file*\start_html_table.py
+python <path_to_file>/start_html_table.py
 ```
 In order to write data to the Google spreadsheet, you need to execute the script start_write_to_sheet.
 ```bash
-python *path to file*\start_write_to_sheet.py
+python <path_to_file>/start_write_to_sheet.py
 ```
 To display data from the Google spreadsheet, you need to execute the script start_read_from_sheet:
 ```bash
-python *path to file*\start_read_from_sheet.py
+python <path_to_file>/start_read_from_sheet.py
 ```
 To delete data from the Google spreadsheet, you need to execute the script start_delete_from_sheet:
 ```bash
-python *path to file*\start_delete_from_sheet.py
+python <path_to_file>/start_delete_from_sheet.py
 ```
 ## Exchange Rates API
 By changing url in exchange_rates_fixed.py you can get a number of endpoints where each of them provides different functionality.
